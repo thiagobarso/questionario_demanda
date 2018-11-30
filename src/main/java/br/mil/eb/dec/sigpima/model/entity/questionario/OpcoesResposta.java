@@ -2,9 +2,7 @@ package br.mil.eb.dec.sigpima.model.entity.questionario;
 
 import java.io.Serializable;
 
-import javax.persistence.Column;
 import javax.persistence.Entity;
-import javax.persistence.ForeignKey;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
@@ -13,7 +11,7 @@ import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
 @Entity
-@Table(schema = "sigpima", name = "tb_opcoes_resposta")
+@Table(schema = "sigpima", name = "tb_questio_opcoes_resposta")
 public class OpcoesResposta implements Serializable {
 
 	private static final long serialVersionUID = 1L;

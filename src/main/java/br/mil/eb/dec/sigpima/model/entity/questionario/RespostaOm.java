@@ -17,7 +17,7 @@ import javax.persistence.TemporalType;
 import br.mil.eb.dec.sigpima.model.entity.AbstractPojo;
 
 @Entity
-@Table(schema = "sigpima", name = "tb_resposta_om")
+@Table(schema = "sigpima", name = "tb_questio_resposta_om")
 public class RespostaOm extends AbstractPojo {
 	
 	private static final long serialVersionUID = 1L;
